@@ -4,7 +4,6 @@ from flask_bcrypt import generate_password_hash, check_password_hash
 from fpdf import FPDF
 import jwt
 import re
-import sqlite3  # Ajuste conforme seu banco de dados
 import os
 
 
